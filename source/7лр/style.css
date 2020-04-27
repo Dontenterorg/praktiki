@@ -1,0 +1,270 @@
+p{
+	margin:100px;
+}
+#wrapper{
+	width: 900px;
+	margin: 0px auto;
+}
+#header{
+	border: 1px solid black;
+	min-height: 200px;
+}
+#sidebar {
+    outline: 1px solid black;
+    width: 200px;
+    height: 500px;
+    float: left;
+}
+#content{
+	border: 1px solid black;
+	min-height: 400px;
+}
+#footer{
+	border: 1px solid black;
+	min-height: 200px;
+}
+
+#wrapper1 {
+    border: 1px solid black;
+    width: 900px;
+    margin: auto;
+}
+#header1 {
+    border: 1px solid black;
+    height: 200px;
+}
+#sidebar1 {
+    outline: 1px solid black;
+    width: 250px;
+    height: 500px;
+    float: left;
+}
+
+#content1 {
+    outline: 1px solid black;
+    width: 650px;
+    height: 500px;
+    float: left;
+}
+#footer1 {
+    border: 1px solid black;
+    height: 200px;
+}
+.clearfix{
+    clear: both;
+}
+
+#wrapper2 {
+    border: 1px solid black;
+    width: 900px;
+    margin: auto;
+}
+#header2 {
+    border: 1px solid black;
+    height: 200px;
+}
+#sidebar2 {
+    outline: 1px solid black;
+    width: 250px;
+    height: 500px;
+    float: right;
+}
+
+#content2 {
+    outline: 1px solid black;
+    width: 650px;
+    height: 500px;
+    float: left;
+}
+#footer2 {
+    border: 1px solid black;
+    height: 200px;
+}
+
+#wrapper3 {
+    border: 1px solid black;
+    width: 900px;
+    margin: 0px auto;
+}
+#header3 {
+    border: 1px solid black;
+    height: 200px;
+}
+#sidebar3, #sidebar3_2 {
+    outline: 1px solid black;
+    width: 150px;
+    height: 500px;
+    float: left;
+}
+
+#content3 {
+    outline: 1px solid black;
+    width: 600px;
+    height: 500px;
+    float: left;
+}
+#footer3 {
+    border: 1px solid black;
+    height: 200px;
+}
+
+#wrapper4 {
+    border: 1px solid black;
+    width: 900px;
+    margin: 0px auto;
+}
+#header4 {
+    border: 1px solid black;
+    height: 200px;
+    margin-bottom: 20px;
+}
+#sidebar4 {
+    outline: 1px solid black;
+    width: 150px;
+    height: 500px;
+    float: left;
+}
+#sidebar4_2 {
+    outline: 1px solid black;
+    width: 150px;
+    height: 500px;
+    float: right;
+}
+
+#content4 {
+    outline: 1px solid black;
+    width: 560px;
+    height: 500px;
+    float: left;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#footer4 {
+    border: 1px solid black;
+    height: 200px;
+    margin-top: 20px;
+}
+
+#wrapper5 {
+    border: 1px solid black;
+    width: 900px;
+    margin: 0px auto;
+}
+#header5 {
+    border: 1px solid black;
+    height: 200px;
+    margin-bottom: 20px;
+}
+#sidebar5 {
+    width: 150px;
+    height: 700px;
+    float: left;
+    margin-left: 20px;
+}
+#sidebar5_2 {
+    outline: 1px solid black;
+    width: 150px;
+    height: 700px;
+    float: right;
+    margin-right:20px;
+}
+
+#content5 {
+    outline: 1px solid black;
+    width: 500px;
+    height: 700px;
+    margin-left: 200px;
+    margin-right: 20px;
+    margin-bottom: 150px;
+}
+#footer5 {
+    border: 1px solid black;
+    height: 200px;
+    margin-top: 20px;
+}
+.sidebar5-0{
+	height: 180px;
+	margin-bottom: 20px;
+	border: 1px solid black;
+}
+#menu{
+	position: absolute;
+	left: 150px;
+	top: 80px;
+	border: 1px solid black;
+	width: 500px;
+	height: 30px;
+}
+#header6 {
+    border: 1px solid black;
+    height: 200px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+#wrapper7 {
+    border: 1px solid black;
+    width: 1300px;
+    margin: 0px auto;
+}
+#header7 {
+    border: 1px solid black;
+    height: 200px;
+}
+#sidebar7, #sidebar7_2 {
+    outline: 1px solid black;
+    width: 250px;
+    height: 500px;
+    float: left;
+}
+
+#content7 {
+    outline: 1px solid black;
+    width:800px;
+    height: 500px;
+    float: left;
+}
+#footer7 {
+    border: 1px solid black;
+    height: 200px;
+}
+
+#wrapper9 {
+    border: 1px solid black;
+    width: 1000px;
+    margin: 0px auto;
+	padding: 40px;
+}
+#header9 {
+    height: 200px;
+	margin-bottom: 40px;
+}
+.left, .right {
+    outline: 1px solid black;
+    width: 200px;
+    
+}
+#middle > div{
+	height: 500px;
+}
+#header9 > div, #footer9 > div{
+	height: 200px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.center {
+    outline: 1px solid black;
+    margin: 0px 240px;
+}
+#footer9 {
+    height: 200px;
+	margin-top: 40px;
+}
+.clearfix{
+    clear: both;
+}
