@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<header class="page-header">
+      <div class="container">
+        <a style="font-size:40px"; class="button" href="../../index.html">НА ГЛАВНУЮ</a>
+      </div>
+    </header>
+    <p style="margin:100px"></p>
+	<body>
+	<form>
+		<input placeholder="Плейсхолдер"><br><br>
+		<input value="Value"><br><br>
+		<input value="disabled" disabled=""><br><br>
+		<input type="password" placeholder="Введите пароль" value="123456"><br><br>
+		<textarea placeholder="Введите текст"></textarea><br><br>
+		<input type="submit" value="Кнопка через тег input"><br><br>
+		<button>Кнопка через тег button</button>
+	</form>
+	<p style="margin:100px"></p>
+	<form>
+		<input placeholder="Плейсхолдер" id="i1"> <label for="i1">Это метка для инпута - нажмите на меня - и инпут получит фокус!</label><br><br>
+		<input type="submit" value="Отправить на сервер">
+	</form>
+	</body>
+	<p style="margin:100px"></p>
+		<form>
+		<input type="checkbox" id="i1"> 
+		<label for="i1">Это метка для чекбокса: нажмите на меня - чекбокс сменит галочку!</label><br><br>
+		<input type="checkbox" id="checked" checked=""> <label for="checked">Я отмечен по умолчанию!</label><br><br>
+		<input type="checkbox" id="disabled" checked="" disabled=""> <label for="disabled">Я disabled!</label><br><br>
+		<div id="group">
+			<p>
+				Это группа радиокнопок - только одна из них может быть отмечена!
+			</p>
+			<input type="radio" id="i2" name="radio1"> 
+			<label for="i2">Это метка для радио</label><br><br>
+			<input type="radio" id="i3" name="radio1"> 
+			<label for="i3">Это метка для радио</label><br><br>
+		</div>
+		<input type="submit" value="Отправить на сервер">
+	</form>
+	<p style="margin:100px"></p>
+	<form>
+		<select>
+			<option>Минск</option>
+			<option>Москва</option>
+			<option>Киев</option>
+			<option selected="">Нью Йорк</option>
+			<option>Варшава</option>
+			<option>Рига</option>
+			<option>Рим</option>
+		</select>
+		<select size="3">
+			<option>Минск</option>
+			<option>Москва</option>
+			<option>Киев</option>
+			<option selected="">Нью Йорк</option>
+			<option>Варшава</option>
+			<option>Рига</option>
+			<option>Рим</option>
+		</select>
+		<select size="5" multiple="">
+			<option>Минск</option>
+			<option>Москва</option>
+			<option>Киев</option>
+			<option selected="">Нью Йорк</option>
+			<option>Варшава</option>
+			<option>Рига</option>
+			<option>Рим</option>
+		</select>
+		<input type="submit" value="Отправить на сервер">
+	</form>
+	<p style="margin:100px"></p>
+	<form>
+		<input type="file" id="file">
+		<input type="submit" value="Отправить на сервер">
+	</form>
+	<p style="margin:100px"></p>
+	<form>
+		<fieldset>
+			<legend>Выберите кнопочку</legend>
+			<input type="radio" name="radio1"> 
+			<input type="radio" name="radio1"> 
+			<input type="radio" name="radio1"> 
+			<input type="text" name="radio1" placeholder="Ваше имя..."> 
+		</fieldset>
+		<fieldset>
+			<legend>Выберите  еще кнопочку</legend>
+			<input type="radio" name="radio2"> 
+			<input type="radio" name="radio2"> 
+			<input type="radio" name="radio2"> 
+			<input type="radio" name="radio2" disabled=""> 
+			<input type="radio" name="radio2" disabled=""> 
+		</fieldset>
+		<input type="submit" value="Отправить на сервер">
+	</form>
+	<p style="margin:100px"></p>
+	<body>
+	<div><textarea id="textarea1">Ограничена ширина и высота</textarea></div>
+	<div><textarea id="textarea2"></textarea></div>
+	<div><textarea id="textarea3"></textarea></div>
+	<div><textarea id="textarea4"></textarea></div>
+	</body>
+</html>

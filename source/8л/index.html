@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<header class="page-header">
+      <div class="container">
+        <a style="font-size:40px"; class="button" href="../../index.html">НА ГЛАВНУЮ</a>
+      </div>
+    </header>
+    <p style="margin:100px"></p>
+	<body>
+  <form action="handler.php">
+   <p><input name="a"> <input type="submit"></p>
+   <form action="handler.php">
+    <p><input name="b"> <input type="submit"></p>
+   </form>
+  </form>
+ </body>
+ <p style="margin:100px"></p>
+ <body>
+  <form>
+   <p><input name="a"> <input type="submit"></p>
+  </form>
+ </body>
+ <p style="margin:100px"></p>
+ <body>
+  <form action="mailto:vlad@htmlbook.ru" enctype="text/plain">
+   <p><input name="a"> <input type="submit"></p>
+  </form>
+ </body>
+<p style="margin:100px"></p>
+ <body>
+  <form action="handler.php">
+   <p><input name="login"> <input type="password" name="pass"></p>
+   <p><input type="submit"></p>
+  </form>
+ </body>
+<p style="margin:100px"></p>
+ <body>
+  <p><iframe name="area" width="500" height="200"></iframe></p>
+  <form action="handler.php" target="area">
+   <p><input placeholder="Введите текст" name="text"></p>
+   <p><input type="submit" value="Отправить"></p>
+  </form>
+ </body>
+<p style="margin:100px"></p>
+ <body>
+  <form id="auth" action="handler.php" method="post"></form>
+  <p>...</p>
+  <p><input name="login" form="auth">
+  <input type="password" name="pass" form="auth"></p>
+  <p><input type="submit" form="auth"></p> 
+ </body>
+ <p></p>
+ <body>
+  <form>
+   <p><input placeholder="Ваше имя" name="user"></p>
+   <p><input type="submit" value="Отправить" 
+    formaction="handler.php" formmethod="post"></p>
+  </form>
+ </body>
+<p style="margin:100px"></p>
+ <body>
+  <form>
+   <p><strong>Как вас зовут?</strong></p>
+   <p><input name="name" maxlength="25" size="40" value="Вася"></p>
+  </form>
+ </body>
+<p style="margin:100px"></p>
+ <body>
+  <form>
+   <p><strong>Введите ваш город</strong></p>
+   <p><input name="city" list="city"></p>
+  </form> 
+  <datalist id="city">
+   <option>Волгоград</option>
+   <option>Воронеж</option>
+   <option>Екатеринбург</option>
+   <option>Казань</option>
+   <option>Красноярск</option>
+   <option>Москва</option>
+   <option>Нижний Новгород</option>
+   <option>Новосибирск</option>
+   <option>Омск</option>
+   <option>Пермь</option>
+   <option>Ростов-на-Дону</option>
+   <option>Самара</option>
+   <option>Санкт-Петербург</option>
+   <option>Уфа</option>
+   <option>Челябинск</option>
+  </datalist>
+ </body>
+<p style="margin:100px"></p>
+ <body>
+  <form action="handler.php">
+   <p><strong>Логин:</strong>
+      <input maxlength="25" size="40" name="login"></p>
+   <p><strong>Пароль:</strong>
+      <input type="password" maxlength="25" size="40" name="password"></p>
+   <p><input type="submit" value="Войти"></p>
+  </form>
+ </body>
+<p style="margin:100px"></p>
+ <body> 
+  <form action="handler.php">
+   <p><strong>Введите ваш отзыв:</strong></p>
+   <p><textarea name="comment"></textarea></p>
+   <p><input type="submit"></p>
+  </form>
+ </body>
+<p style="margin:100px"></p>
+ <body> 
+  <form action="handler.php">
+   <p><strong>Отредактируйте ваш отзыв:</strong></p>
+   <p><textarea name="edit" rows="3" cols="30">
+     КГ/АМ
+     выпий йаду.
+    </textarea></p>
+   <p><input type="submit"></p>
+  </form>
+ </body>
+<p style="margin:100px"></p>
+ <body> 
+  <form>
+   <p><input type="button" value=" Нажми меня нежно "></p>
+  </form>
+ </body>
+<p style="margin:100px"></p>
+ <body> 
+  <form>
+   <p><button>Кнопка с текстом</button> 
+   <button>
+    <img src="image/umbrella.gif" alt="" style="vertical-align:middle"> 
+    Кнопка с рисунком
+   </button></p>
+  </form>
+ </body>
+<p style="margin:100px"></p>
+ <body> 
+  <form>
+   <p><input name="login"></p>
+   <p><input type="submit"></p>
+  </form>
+ </body>
+<p style="margin:100px"></p>
+ <body> 
+  <form>
+   <p><input value="Введите текст"></p>
+   <p><input type="submit">
+      <input type="reset"></p>
+  </form>
+ </body>
+<p style="margin:100px"></p>
+ <body>
+  <form>
+   <p><b>Какое у вас состояние разума?</b></p>
+    <p><input name="dzen" type="radio" value="nedzen"> Не дзен</p>
+    <p><input name="dzen" type="radio" value="dzen"> Дзен</p>
+    <p><input name="dzen" type="radio" value="pdzen" checked> Полный дзен</p>
+    <p><input type="submit" value="Выбрать"></p>
+  </form> 
+ </body>
+<p style="margin:100px"></p>
+ <body>
+  <form>
+   <p>В каких годах произошли самые известные извержения вулкана Кракатау?</p>
+   <p><input type="checkbox" name="a" value="1417"> 1417</p>
+   <p><input type="checkbox" name="a" value="1680" checked> 1680</p>
+   <p><input type="checkbox" name="a" value="1883" checked> 1883</p>
+   <p><input type="checkbox" name="a" value="1934"> 1934</p>
+   <p><input type="checkbox" name="a" value="2010"> 2010</p>
+   <p><input type="submit" value="Отправить"></p>
+  </form>
+ </body>
+<p style="margin:100px"></p>
+ <body>
+  <form enctype="multipart/form-data" method="post">
+   <p><input type="file" name="f">
+   <input type="submit" value="Отправить"></p>
+  </form> 
+ </body>
+<p style="margin:100px"></p>
+ <body>
+  <form enctype="multipart/form-data" method="post">
+   <p><input type="file" name="f" multiple>
+   <input type="submit" value="Отправить"></p>
+  </form> 
+ </body>
+<p style="margin:100px"></p>
+ <body>
+  <form enctype="multipart/form-data" method="post">
+   <p>Загрузите ваши фотографии на сервер</p>
+   <p><input type="file" name="photo" multiple accept="image/*,image/jpeg">
+   <input type="submit" value="Отправить"></p>
+  </form>
+ </body>
+<p style="margin:100px"></p>
+ <body>
+  <form>
+   <select name="day">
+    <option value="mon">Понедельник</option>
+    <option value="tue">Вторник</option>
+    <option value="wed" selected>Среда</option>
+    <option value="thu">Четверг</option>
+    <option value="fri">Пятница</option>
+    <option value="sat">Суббота</option>
+    <option value="sun">Воскресенье</option>
+   </select>
+  </form> 
+ </body>
+<p style="margin:100px"></p>
+ <body>
+  <form>
+   <p><select name="food">
+    <optgroup label="Русская кухня">
+     <option value="r1">Закуска Барская</option>
+     <option value="r2">Раки, фаршированные по-царски</option>
+     <option value="r3">Биточки в горшочке</option>
+    </optgroup>
+    <optgroup label="Украинская кухня">
+     <option value="u1">Галушки славянские</option>
+     <option value="u2">Пампушки украинские</option>
+     <option value="u3">Жаркое по-харьковски</option>
+    </optgroup>
+   </select></p>
+   <p><input type="submit" value="Отправить"></p>
+  </form>
+ </body>
+</html>
